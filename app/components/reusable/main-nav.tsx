@@ -12,7 +12,7 @@ export default function MainNav() {
           alt="Gaplabs Logo"
         />
       </Link>
-      <div className="flex gap-4 uppercase text-lg font-black">
+      <div className="flex gap-12 uppercase text-base font-bold">
         <Link href="/">Home</Link>
         <Link href="/events">Events</Link>
         <Link href="/about">About</Link>

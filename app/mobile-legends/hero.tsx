@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="w-full h-[300px] px-4 md:px-0 md:h-[800px] relative flex flex-col justify-center items-center">
+    <section className="w-full h-[300px] px-4 md:px-0 md:h-[600px] relative flex flex-col justify-center items-center">
       <div className="w-full h-full absolute bg-gradient-to-r from-slate-900 z-10"></div>
       <Image
         className="w-full h-full object-cover absolute"
@@ -17,10 +17,10 @@ export default function Hero() {
           <span className="text-sun-500">Legends</span>
         </h1>
         <p className="max-w-[800px] md:ml-4 text-sm md:text-base">
-        Prepare your heroes, gather your squad, and enter the arena for an
-              epic Mobile Legends tournament! Whether you're a seasoned player
-              or a rising star, this is your chance to showcase your skills,
-              outsmart your opponents, and climb to victory in the Land of Dawn.
+          Prepare your heroes, gather your squad, and enter the arena for an
+          epic Mobile Legends tournament! Whether you're a seasoned player or a
+          rising star, this is your chance to showcase your skills, outsmart
+          your opponents, and climb to victory in the Land of Dawn.
         </p>
       </div>
     </section>
