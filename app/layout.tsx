@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import localFont from "next/font/local";
 import "./globals.css";
+import MainNav from "./components/reusable/main-nav";
+import Footer from "./components/reusable/footer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -28,7 +31,24 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-slate-100`}
       >
-        {children}
+        <div className="lg:flex flex-col hidden w-full items-center">
+          <MainNav />
+          {children}
+          <Footer />
+        </div>
+        <div className="bg-slate-900 h-dvh items-center flex-col gap-8 flex lg:hidden justify-center text-white">
+          <Image
+            src="https://res.cloudinary.com/gaplabs/image/upload/fl_progressive,w_200,h_200/v1571230719/gaplabs/logo.png"
+            width={150}
+            height={150}
+            alt="Gaplabs Logo"
+          />
+          <span className="bg-slate-900 font-semibold text-2xl px-8 text-center">
+            Under construction
+            <br />
+            Please use a laptop
+          </span>
+        </div>
       </body>
     </html>
   );
