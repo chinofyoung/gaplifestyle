@@ -1,0 +1,22 @@
+{
+  "teams": [
+    {
+      "name": "2ez4jiniri",
+      "wins": 0,
+      "loss": 0,
+      "logo": "/assets/2ez4jiniri.png"
+    },
+    {
+      "name": "j.son()",
+      "wins": 0,
+      "loss": 0,
+      "logo": "/assets/json.png"
+    },
+    {
+      "name": "Sting",
+      "wins": 0,
+      "loss": 0,
+      "logo": "/assets/sting.png"
+    }
+  ]
+}
