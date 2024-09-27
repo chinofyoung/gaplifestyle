@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Hero from "./hero";
 import Players from "./players";
 import Matches from "./matches";

@@ -4,12 +4,12 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function MobileLegends() {
   return (
-    <section className="flex flex-wrap justify-center w-full max-w-7xl px-4 md:px-0">
+    <section className="flex flex-wrap justify-center w-full px-12">
       <div className="flex flex-col md:flex-row gap-5 w-full md:h-[500px]">
         <div className="flex order-2 md:order-1 flex-row md:flex-col md:w-1/3 gap-5">
-          <div className="bg-white shadow-md w-full md:h-[300px] rounded-custom flex-col flex justify-center gap-4 p-8">
+          <div className="bg-slate-900 text-white shadow-md w-full md:h-[300px] rounded-custom flex-col flex justify-center gap-4 p-8">
             <h2 className="text-2xl font-black uppercase">Mobile Legends</h2>
-            <p className="text-neutral-700 text-sm md:text-base">
+            <p className="text-sm md:text-base">
               We believe a fulfilling career and vibrant lifestyle go hand in
               hand. Our collaborative environment empowers you to thrive both
               professionally and personally
@@ -49,7 +49,7 @@ export default function MobileLegends() {
             </h2>
             <p className="text-right">
               Prepare your heroes, gather your squad, and enter the arena for an
-              epic Mobile Legends tournament! Whether you're a seasoned player
+              epic Mobile Legends tournament! Whether you&apos;re a seasoned player
               or a rising star, this is your chance to showcase your skills,
               outsmart your opponents, and climb to victory in the Land of Dawn.
             </p>

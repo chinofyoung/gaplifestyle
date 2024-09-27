@@ -18,7 +18,7 @@ export default function Hero() {
         </h1>
         <p className="max-w-[800px] md:ml-4 text-sm md:text-base">
           Prepare your heroes, gather your squad, and enter the arena for an
-          epic Mobile Legends tournament! Whether you're a seasoned player or a
+          epic Mobile Legends tournament! Whether you&apos;re a seasoned player or a
           rising star, this is your chance to showcase your skills, outsmart
           your opponents, and climb to victory in the Land of Dawn.
         </p>

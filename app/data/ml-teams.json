@@ -1,21 +1,21 @@
 {
   "teams": [
     {
-      "name": "2ez4jiniri",
-      "wins": 0,
-      "loss": 0,
+      "name": "JGGLRCK",
+      "wins": 1,
+      "loss": 1,
       "logo": "/assets/2ez4jiniri.png"
     },
     {
       "name": "j.son()",
-      "wins": 0,
-      "loss": 0,
+      "wins": 3,
+      "loss": 1,
       "logo": "/assets/json.png"
     },
     {
       "name": "Sting",
       "wins": 0,
-      "loss": 0,
+      "loss": 2,
       "logo": "/assets/sting.png"
     }
   ]

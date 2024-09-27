@@ -128,8 +128,9 @@
     },
     {
       "firstName": "John",
-      "lastName": "Shmurnas",
-      "role": "Acebedo",
+      "lastName": "Acebedo",
+      "ign": "Shmurnas",
+      "role": "",
       "captain": false,
       "pic": "https://scontent.fmnl8-6.fna.fbcdn.net/v/t39.30808-1/273271079_683711126138120_6577665735586367369_n.jpg?stp=c1.39.198.198a_dst-jpg_p200x200&_nc_cat=104&ccb=1-7&_nc_sid=0ecb9b&_nc_eui2=AeF7HkL3uXXYwL3yDv9yA_RxGF1B_A_Dm-IYXUH8D8Ob4pws4QPa7s-kwvXQa5xHrPk&_nc_ohc=S-iMy7dz2kUQ7kNvgH5xALM&_nc_ht=scontent.fmnl8-6.fna&oh=00_AYAbdOTCuYwSPkE7GAGMXK62FHockX_fIIzSUsFBdabXyw&oe=66F9EAAD"
     },

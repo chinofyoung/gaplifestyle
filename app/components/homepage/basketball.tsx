@@ -1,10 +1,9 @@
 import Image from "next/image";
-import Link from "next/link";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function Basketball() {
   return (
-    <section className="px-4 md:px-0 flex flex-wrap justify-center w-full max-w-7xl">
+    <section className="flex flex-wrap justify-center w-full px-12">
       <div className="flex gap-5 w-full md:h-[500px] flex-col md:flex-row">
         <div className="bg-slate-500 shadow-md w-full shrink-0  md:w-2/3 h-[300px] md:h-[500px] flex justify-center items-center p-8 rounded-custom overflow-hidden relative">
           <div className="bg-gradient-to-t from-slate-900/70 w-full h-full absolute z-10"></div>
@@ -28,9 +27,9 @@ export default function Basketball() {
           </div>
         </div>
         <div className="flex flex-col w-full md:w-1/3 gap-5">
-          <div className="bg-white shadow-md w-full h-[200px] md:h-[300px] rounded-custom flex-col flex justify-center gap-4 p-8">
+          <div className="bg-sun-500 text-white shadow-md w-full h-[200px] md:h-[300px] rounded-custom flex-col flex justify-center gap-4 p-8">
             <h2 className="text-2xl font-black uppercase">Basketball</h2>
-            <p className="text-neutral-700">
+            <p className="">
               We believe a fulfilling career and vibrant lifestyle go hand in
               hand. Our collaborative environment empowers you to thrive both
               professionally and personally

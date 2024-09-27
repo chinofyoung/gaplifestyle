@@ -1,15 +1,14 @@
 import Image from "next/image";
-import Link from "next/link";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function Volleyball() {
   return (
-    <section className="flex flex-wrap justify-center w-full max-w-7xl px-4 md:px-0">
+    <section className="flex flex-wrap justify-center w-full px-12">
       <div className="flex md:flex-row flex-col gap-5 w-full md:h-[500px]">
         <div className="flex flex-col w-full md:w-1/3 gap-5">
-          <div className="bg-white shadow-md w-full h-[200px] md:h-300 rounded-custom flex-col flex justify-center gap-4 p-8">
+          <div className="bg-slate-800 text-white shadow-md w-full h-[200px] md:h-300 rounded-custom flex-col flex justify-center gap-4 p-8">
             <h2 className="text-2xl font-black uppercase">Volleyball</h2>
-            <p className="text-neutral-700">
+            <p className="">
               We believe a fulfilling career and vibrant lifestyle go hand in
               hand. Our collaborative environment empowers you to thrive both
               professionally and personally
@@ -34,7 +33,7 @@ export default function Volleyball() {
             <h2 className="text-2xl font-black uppercase">Lorem Ipsum Dolor</h2>
             <p className="text-right">
               Get ready to spike, set, and serve at our thrilling volleyball
-              event! Whether you're an experienced player or just looking to
+              event! Whether you&apos;re an experienced player or just looking to
               have some fun, this event promises high-energy action, teamwork,
               and plenty of excitement on the court.
             </p>
@@ -53,7 +52,7 @@ export default function Volleyball() {
             <h2 className="text-2xl font-black uppercase">Lorem Ipsum Dolor</h2>
             <p className="text-right">
               Get ready to spike, set, and serve at our thrilling volleyball
-              event! Whether you're an experienced player or just looking to
+              event! Whether you&apos;re an experienced player or just looking to
               have some fun, this event promises high-energy action, teamwork,
               and plenty of excitement on the court.
             </p>
