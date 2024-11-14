@@ -49,26 +49,13 @@ export default async function Matches() {
 
       <div className="bg-[url('/assets/bg2.png')] bg-no-repeat text-white p-12 rounded-md py-24 flex items-center flex-col gap-8">
         <h2 className="font-bold uppercase text-[80px] leading-[70px]">
-          Matches
+          Round 2 Matches
         </h2>
-        <h3 className="font-semibold uppercase text-4xl">September 26, 2024</h3>
+        <h3 className="font-semibold uppercase text-4xl">November 14, 2024</h3>
         <div className="flex flex-col gap-12">
           <div className="flex flex-col items-center gap-4">
             <span className="font-bold text-3xl">Match 1</span>
             <div className="flex gap-8 items-center">
-              <div className="flex items-center bg-slate-200 gap-4 justify-start rounded-md overflow-hidden w-[300px] pr-4">
-                <Image
-                  src={data.teams[0].logo}
-                  width={50}
-                  height={50}
-                  alt="Team logo"
-                  className=""
-                />
-                <span className="text-3xl font-bold text-neutral-800">
-                  {data.teams[0].name}
-                </span>
-              </div>
-              <span className="font-black text-4xl">VS</span>
               <div className="flex items-center bg-slate-200 gap-4 justify-start rounded-md overflow-hidden w-[300px] pr-4">
                 <Image
                   src={data.teams[1].logo}
@@ -79,6 +66,19 @@ export default async function Matches() {
                 />
                 <span className="text-3xl font-bold text-neutral-800">
                   {data.teams[1].name}
+                </span>
+              </div>
+              <span className="font-black text-4xl">VS</span>
+              <div className="flex items-center bg-slate-200 gap-4 justify-start rounded-md overflow-hidden w-[300px] pr-4">
+                <Image
+                  src={data.teams[2].logo}
+                  width={50}
+                  height={50}
+                  alt="Team logo"
+                  className=""
+                />
+                <span className="text-3xl font-bold text-neutral-800">
+                  {data.teams[2].name}
                 </span>
               </div>
             </div>
@@ -96,36 +96,6 @@ export default async function Matches() {
                 />
                 <span className="text-3xl font-bold text-neutral-800">
                   {data.teams[1].name}
-                </span>
-              </div>
-              <span className="font-black text-4xl">VS</span>
-              <div className="flex items-center bg-slate-200 gap-4 justify-start rounded-md overflow-hidden w-[300px] pr-4">
-                <Image
-                  src={data.teams[2].logo}
-                  width={50}
-                  height={50}
-                  alt="Team logo"
-                  className=""
-                />
-                <span className="text-3xl font-bold text-neutral-800">
-                  {data.teams[2].name}
-                </span>
-              </div>
-            </div>
-          </div>
-          <div className="flex flex-col items-center gap-4">
-            <span className="font-bold text-3xl">Match 3</span>
-            <div className="flex gap-8 items-center">
-            <div className="flex items-center bg-slate-200 gap-4 justify-start rounded-md overflow-hidden w-[300px] pr-4">
-                <Image
-                  src={data.teams[2].logo}
-                  width={50}
-                  height={50}
-                  alt="Team logo"
-                  className=""
-                />
-                <span className="text-3xl font-bold text-neutral-800">
-                  {data.teams[2].name}
                 </span>
               </div>
               <span className="font-black text-4xl">VS</span>
