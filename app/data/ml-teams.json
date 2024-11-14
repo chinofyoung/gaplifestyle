@@ -2,7 +2,7 @@
   "teams": [
     {
       "name": "JGGLRCK",
-      "wins": 1,
+      "wins": 5,
       "loss": 1,
       "logo": "/assets/2ez4jiniri.png"
     },
@@ -15,7 +15,7 @@
     {
       "name": "Sting",
       "wins": 0,
-      "loss": 2,
+      "loss": 6,
       "logo": "/assets/sting.png"
     }
   ]

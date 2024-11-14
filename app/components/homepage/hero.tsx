@@ -10,7 +10,7 @@ export default function Hero() {
         height={500}
         alt="Hero image"
       />
-      <div className="z-10 relative text-white flex w-full flex-col gap-2 px-12 mt-24">
+      <div className="z-10 relative text-white flex w-full flex-col gap-2 px-12 mt-12">
         <h1 className="text-5xl font-black flexfont-black uppercase">
           <span>Gap</span>
           <span className="text-sun-500">Lifestyle</span>
